@@ -1,18 +1,18 @@
 *Please note: The "Review of Current Methods" section's format messes up when exporting the notebook as a PDF, so I've included it below my write-up.*
 
 ### Write-up
-For my exploration, I intend to follow these steps:
+As a supplement to my final project, I explored low-light image enhancement techniques with the following steps:
 
-1. Preprocessing
+1. Pre-processing
   - Normalize the image
-  - Noise reduction
 2. Enhancement
   - Contrast Enhancement
   - Sharpening
   - Brightness Adjustment
-3. Sharpening
-5. Color Correction / Saturation Adjustment
-
+  - Noise Reduction
+  - Exposure Compensation
+3. Post-processing
+  - Color Correction
 
 ### Review of Current Methods
 Once you’ve selected a topic or project idea, explore the literature space. Has there been academic research on this topic? Are there tutorials online, software packages, or libraries? 
