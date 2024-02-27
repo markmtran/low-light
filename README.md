@@ -16,14 +16,14 @@ As a supplement to my final project, I intended to explore low-light image enhan
 
 I first went through the LearnOpenCV tutorial to solidify my understanding of direct kernel applications and convolutional blurs. I then transitioned to exploring other OpenCV methods that allowed me to reduce the noise in images, enhance contrast, sharpen the images, adjust their brightness, and compensate exposure. I then also tried to perform color correction on the image, but I'm currently unsuccessful as I am losing my three channels in the previous steps. However, I am able to generate some output image that looks sort of looks like some grayscale social media filter.
 
-![Original](https://ibb.co/L9YZQJ4)
-![After Filtering](https://ibb.co/M1xz3gg)
+![Original](https://i.postimg.cc/KvKgZXQ4/zion.jpg "Original Image")
+![After Filtering](https://i.postimg.cc/mgfhBPt6/zion.jpg "After Filtering")
 
 Although you can see additional details in the valley below, the sky seems to have degraded as well, so I would like to explore why.
 
 I also looked into the "Contrast Enhancement Using the Laplacian-of-a-Gaussian Filter" paper by Neycenssac some more and tried to replicate their work, but I'm not quite sure what I'm getting myself into. 
 
-![LoG](https://ibb.co/PskywzW)
+![LoG](https://i.postimg.cc/YSt9LTN6/log-zion.jpg "LoG Image")
 
 Here, some edges are enhanced, but much detail is lost.
 
