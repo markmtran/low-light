@@ -17,6 +17,8 @@ def apply_filters(image):
 
     # Sharpening
     blurred = cv.GaussianBlur(image, (0, 0), 3)
+    # laplacian = cv.Laplacian(blurred, cv.CV_64F)
+    # filtered_image = np.uint8(np.abs(laplacian))
     sharpened = cv.addWeighted(image, 1.5, blurred, -0.5, 0)
 
     # Brightness Adjustment

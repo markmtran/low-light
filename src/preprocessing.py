@@ -26,7 +26,5 @@ def preprocess_image(image):
     )
 
     equalized_image = cv.equalizeHist(grayscale_image)
-
     equalized_3_channels = cv.cvtColor(equalized_image, cv.COLOR_GRAY2BGR)
-
     return equalized_3_channels

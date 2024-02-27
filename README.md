@@ -1,18 +1,31 @@
 *Please note: The "Review of Current Methods" section's format messes up when exporting the notebook as a PDF, so I've included it below my write-up.*
 
 ### Write-up
-As a supplement to my final project, I explored low-light image enhancement techniques with the following steps:
+As a supplement to my final project, I intended to explore low-light image enhancement techniques with the following steps:
 
 1. Pre-processing
-  - Normalize the image
+    - Normalize the image
+    - Noise Reduction
 2. Enhancement
-  - Contrast Enhancement
-  - Sharpening
-  - Brightness Adjustment
-  - Noise Reduction
-  - Exposure Compensation
+    - Contrast Enhancement
+    - Sharpening
+    - Brightness Adjustment
+    - Exposure Compensation
 3. Post-processing
-  - Color Correction
+    - Color Correction
+
+I first went through the LearnOpenCV tutorial to solidify my understanding of direct kernel applications and convolutional blurs. I then transitioned to exploring other OpenCV methods that allowed me to reduce the noise in images, enhance contrast, sharpen the images, adjust their brightness, and compensate exposure. I then also tried to perform color correction on the image, but I'm currently unsuccessful as I am losing my three channels in the previous steps. However, I am able to generate some output image that looks sort of looks like some grayscale social media filter.
+
+![Original](https://ibb.co/L9YZQJ4)
+![After Filtering](https://ibb.co/M1xz3gg)
+
+Although you can see additional details in the valley below, the sky seems to have degraded as well, so I would like to explore why.
+
+I also looked into the "Contrast Enhancement Using the Laplacian-of-a-Gaussian Filter" paper by Neycenssac some more and tried to replicate their work, but I'm not quite sure what I'm getting myself into. 
+
+![LoG](https://ibb.co/PskywzW)
+
+Here, some edges are enhanced, but much detail is lost.
 
 ### Review of Current Methods
 Once you’ve selected a topic or project idea, explore the literature space. Has there been academic research on this topic? Are there tutorials online, software packages, or libraries? 
